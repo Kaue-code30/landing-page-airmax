@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    color: #000;
+    
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+ header{display: flex;
+        height: 100px;
+        grid-column: 1/13;
+        justify-content: center;
+}
+
+.pesquisa{
+    display: flex;
+    color: black;
+    gap: 30px;
+    font-family: fantasy;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    left: 300px;
+    z-index: 1;
+}
+
+
+.conteudo{
+    display: grid;
+    flex-grow: 1;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.circulo{
+    position: absolute;
+    border-radius: 50%;
+    width: 659px;
+    background:linear-gradient(179.96deg, #9C0610 0.04%, #CF5C55 99.96%);
+    box-shadow: 73px 8px 38px -10px;
+    height: 679px;
+    grid-column: 4/6;
+    top: 155px;
+    left: 277px;
+    
+}
+.tenis{
+    position: absolute;
+    top: 150.6px;
+    left: 250.52px;
+    width: 700.57px;
+    height: 700px;
+    grid-column: 4/6;
+}
+
+.titles{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-column: 8/10;
+    gap: 70px;
+    align-items: center;
+}
+.titulo{
+    position: absolute;
+    width: 257px;
+    height: 44px;
+    top: 350px;
+    left: 1147px;
+    font-size: 24px;
+   
+}
+.subtitulo{
+    position: absolute;
+    width: 751px;
+    height: 120px;
+    top: 470px;
+    left: 1133px;
+    font-size: 96px;
+}
+.discription{
+    position: absolute;
+    grid-column: 8/10;
+    width: 672px;
+    height: 211px;
+    top: 582px;
+    left: 1147px;
+    font-size: 24px;
+
+}
+.divisoria{
+    background: linear-gradient(174.44deg, rgba(11, 11, 11, 0.95) -0.36%, rgba(13, 13, 13, 0.855) 104.09%);
+    background-blend-mode: darken;
+    grid-column: 1/6;
+    position: absolute;
+    width: 616px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+
+.nomemarca{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 905px;
+    top: 730px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 280px;
+    line-height: 339px;
+    letter-spacing: 0.025em;
+    color: rgba(0, 0, 0, 0.07);
+
+}
+
+.rodape{
+    height: 20px;
+    
+    
+}
+.nomemarca{
+    width: 10px;
+    height: 10px;
+}
+
+    
